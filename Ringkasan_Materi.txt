@@ -1,0 +1,190 @@
+Pertemuan 1
+Materi : Pendahuluan
+Folder Github : -
+Penjelasan : 
+>Pengenalan OOP
+>Pengenalan Java
+>Cara compile di CMD(Lab)
+>Setting path(Lab)
+Ringkasan :
+-Java adalah bahasa pemrograman tingkat tinggi yang berorientasi objek dan program java tersusun dari bagian yang disebut kelas. 
+ Kelas terdiri atas metode-metode yang melakukan pekerjaan dan mengembalikan informasi setelah melakukan tugasnya. 
+
+Pertemuan 2
+Folder Github : 
+Materi : Konsep OOP 
+Penjelasan : 
+>Penjelasan lebih lanjut konsep OOP dan Java
+>BIodata(Lab)
+>Pengenalan jvm,jre,jdk
+Ringkasan :
+-OOP (Object Oriented Programming) adalah suatu metode pemrograman yang berorientasi kepada objek. 
+ Tujuan dari OOP diciptakan adalah untuk mempermudah pengembangan program dengan cara mengikuti model yang telah ada di kehidupan sehari-hari. 
+ Jadi setiap bagian dari suatu permasalahan adalah objek.
+
+Pertemuan 3 
+Folder Github :
+Materi : Kelas dan Objek
+Penjelasan :
+>Penjelasan kelas dan objek
+>Penjelasan tipe data
+>Menganalisis objek disekitar
+>Percobaan tipe data
+>Penjelasan variabel(Lab)
+>Input Output(Lab)
+Ringkasan :
+-Class merupakan suatu blueprint atau cetakan untuk menciptakan suatu instant dari object. 
+ Class juga merupakan grup suatu object dengan kemiripan attributes/properties, behaviour dan relasi ke object lain.
+-Object adalah instance dari class. Jika class secara umum merepresentasikan (template) sebuah object, sebuah instance adalah representasi nyata dari class itu sendiri.
+
+
+Pertemuan 4
+Folder Github :
+Materi : Method,Konstruktor,This, Atribut
+Penjelasan :
+>Penjelasan Method,Konstruktor,This, Atribut
+>Program IPK(Lab)
+>Operator java
+Ringkasan :
+-Method merupakan suatu operasi berupa fungsi-fungsi yang dapat dikerjakan oleh suatu object.
+ Method didefinisikan pada class akan tetapi dipanggil melalui object. Metode menentukan perilaku objek.
+-Construktor adalah Constructor merupakan suatu method yang akan memberikan nilai awal pada saat suatu objek dibuat. 
+ Pada saat program dijalankan, constructor akan bekerja dengan constructor, 
+ hal mendasar yang perlu diperhatikan, yaitu :
+
+-Nama Constructor sama dengan nama Class.
+-Tidak ada return type yang diberikan kedalam Constructor Signature.
+-Tidak ada return stetement, didalam tubuh constructor.
+
+Attributes merupakan nilai data yang terdapat pada suatu object yang berasal dari class. 
+Attributes merepresentasikan karakteristik dari suatu object. 
+
+This digunakan untuk menujuk pembuat kelas(variabel instant) dan digunakan untuk menyatakan objek sekarang atau object dalam class tersebut.
+
+
+Pertemuan 5
+Folder Github :
+Materi : Inheritance
+Penjelasan :
+>Penjelasan penggunaan Inheritance
+>Keyword super
+>Hubungan antar kelas
+>Penyempurnaan tugas(Lab)
+Ringkasan :
+-Sifat Inheritance pada JAVA sendiri dimaksud dengan sebuah objek dapat mempunyai objek turunan. 
+ Dalam hal pemrogaman maka class dapat memiliki class turunan (pewaris). 
+ Class yang mempunyai class turunan disebut sebagai Parent Class atau Class Pemilik Warisan, 
+ sedangkan class yang menjadi turunan dari Parent Class atau Class Pemilik Warisan disebut sebagai Subclass atau Class Pewaris.
+
+Pertemuan 6
+Folder Github :
+Materi : Overriding
+Penjelasan : 
+>Penjelasan Overriding
+>Penjelasan Polimorfisme
+Ringkasan :
+-Method overriding merupakan method yang parrent class yang ditulis kembali oleh subclass. 
+ Aturan dari method overriding pada Java :
+ -Parameter yang terdapat pada method overriding di subclass harus sama dengan parameter yang terdapat pada parent class.
+ -Aturan hak akses, hak akses method overriding di subclass tidak boleh lebih ketat di bandingkan dengan hak akses method pada parent class.
+
+-Polymorphism adalah suatu object dapat memiliki berbagai bentuk, sebagai object dari class sendiri atau object dari superclassnya.
+ Kemampuan sebuah variabel reference untuk merubah behavior sesuai dengan apa yang dipunyai object.
+ Polymorphism membuat objek-objek yang berasal dari subclass yang berbeda, diperlakukan sebagai objek-objek dari satu superclass. 
+ Hal ini terjadi ketika memilih method yang sesuai untuk diimplementasikan ke objek tertentu berdasarkan pada subclass yang memiliki method bersangkutan.
+
+Pertemuan 7(Sama dengan Pertemuan 6)
+
+Pertemuan 8(UTS)
+
+Pertemuan 9
+Folder Github :
+Materi : Abstraksi
+Penjelasan :
+>Penjelasan Abstraksi
+>Penggunaan kelas abstrak
+>Program kalkulator(Lab)
+Ringkasan :
+-Abstraksi adalah proses pengabstraksian atau menyembunyikan kerumitan dari suatu proses (dalam hal ini program).
+-Sebagai contoh, orang tidak perlu berpikir bahwa mobil adalahkumpulan dari puluhan atau ribuan bagian-bagian kecil (mesin, kabel, baut,roda, rem, dsb). 
+ Orang hanya perlu berpikir bahwa mobil adalah sebuahobjek yang telah memiliki prilaku spesifik, yang dapat digunakan sebagaialat transportasi, sehingga dia/mereka tinggal menggunakannya ataumengendarainya tanpa harus mengetahui kerumitan proses yang terdapat didalam mobil tersebut.  
+ Ini artinya, si pembuat mobil telah menyembunyuikansemua kerumitan-kerumitan proses yang terdapat didalam mobil dan pengguna tidak perlu mengetahui bagaimana sistem mesin , transmisi, danrem berkerja. 
+ Konsep seperti inilah yang dinamakan dengan abstraksi. 
+
+Pertemuan 10
+Folder Github :
+Materi : Enkapsulasi
+Penjelasan :
+>Penjelasan Enkapsulasi
+>Percobaan enkapsulasi(Lab)
+>Melanjutkan program
+Ringkasan :
+-Enkapsulasi atau pembungkus dimaksudkan untuk menjaga suatu proses program agar tidak dapat diakses sembarangan atau diintervansi oleh pengguna program lain.
+ Konsep enkapsulasi ini sangat penting dilakukan guna untuk menjaga kebutuhan program agar dapat diakses sewaktu-waktu dan sekaligus untuk menjaga program tersebut. 
+ Dalam konsepnya, suatu kelas dapat mengakses kelas lain namun tidak dapat merubahnya.
+ Suatu kelas dapat mengakses atau menggunakan method dari kelas lain yang sudah tersedia namun tidak dapat membuat method baru.  
+
+Pertemuan 11
+Folder Github :
+Materi : Interface
+Penjelasan :
+>Penjelasan Interface
+>Demo Interface
+>Perbandingan Interface dan kelas abstrak
+>Menjelaskan tagging interface
+Ringkasan :
+-Interface adalah sebuah tipe referensi pada Java. Interface secara struktur serupa dengan class. 
+ Isi dari interface adalah method abstract, artinya method hanya dideklarasikan tidak ditulis secara utuh. 
+ Deklarasi method pada interface serupa dengan method pada class abstract.
+-apa alasan dalam membuat tagging interface?
+ memberikan petunjuk pada compiler bahwa kelas tersebut memiliki karakteristik tertentu.
+
+Pertemuan 12
+Folder Github :
+Materi : Generic Class
+Penjelasan :
+>Penjelasan Generic Class
+>Penggunaan Generic Class
+>Aturan Generic Class
+Ringkasan :
+-Kelas generik adlah kelas universal atau umum.
+-Belum ada spesifikasi tipe pada data dan fungsi yang ada pada kelas tersebut.
+-Pada kelas generik data dan fungsi tidak dispesifikasikan tipenya.
+-Hal ini memungkinkan kita menspesifikasi sendiri tipenya pada saat mendeklarasikan objek tersebut.
+
+Pertemuan 13
+Folder Github :
+Materi : Generic Class dan Generic Method
+Penjelasan : 
+>Demo Generic Method
+>Sprint task(Lab)
+>Diskusi Generic
+>Mengerjakan program(Lab)
+Ringkasan :
+-Generic Method digunakan untuk menyatakan tipe parameter method yang tidak berkaitan dengan tipe parameter yang dimiliki kelas.
+-Tipe generik dapat disimpulkan dari parameter yang digunakan.
+
+Pertemuan 14
+Folder Github :
+Materi : Packages
+Penjelasan : 
+>Penjelasan Packages
+>Membuat 100 kelas dan 100 package
+>Melanjutkan program(Lab)
+Ringkasan :
+– Package adalah suatu cara untuk memanage class-class yang kita buat. 
+  Package akan sangat bermanfaat Jika class-class yang kita buat sangat banyak sehingga perlu dikelompokkan berdasarkan kategori tertentu.
+– Package adalah koleksi dari beberapa class dan interface yang berhubungan.
+
+
+
+
+
+
+
+
+
+
+
+
+
